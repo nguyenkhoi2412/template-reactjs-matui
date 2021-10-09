@@ -1,0 +1,61 @@
+.body-content {
+  padding: 0;
+
+  > .splitpane {
+    padding-top: 50px;
+    padding-bottom: 45px;
+
+    > .split {
+      height: 100%;
+      overflow: auto;
+      border-left: 1px solid $border-color;
+      padding: 16px 12px 12px;
+
+      > .row {
+        margin: 0;
+        padding: 0;
+        @include _h-100();
+        flex-direction: column;
+        position: relative;
+
+        hr {
+          width: 100%;
+          margin: 15px 0;
+          border-top: 1px solid #ced4da;
+          border-left: 0;
+        }
+      }
+
+      &.left,
+      &.right {
+        background-color: #f7f7f7;
+        @include _shadow();
+        border-left: 0;
+
+        .tblList {
+          &.userlist,
+          &.histories {
+            margin-left: -15px;
+            width: 105%;
+            table {
+              tr {
+                td {
+                  padding-left: 15px;
+                }
+              }
+            }
+          }
+
+          &.userlist {
+            margin-left: 0;
+          }
+        }
+      }
+
+      &.right {
+        @include _shadow(0 0 0 0 transparent);
+        border-left: 1px solid $border-color;
+      }
+    }
+  }
+}

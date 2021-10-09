@@ -1,0 +1,13 @@
+.tblContainer {
+    > table {
+      min-width: 650px;
+  
+      tfoot {
+        .paging-toolbar {
+          flex-shrink: 0;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+  

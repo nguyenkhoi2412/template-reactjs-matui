@@ -1,0 +1,53 @@
+.MuiDialog-root {
+  .MuiDialog-container {
+    align-items: baseline;
+
+    .MuiDialog-paper {
+      min-height: 250px;
+      width: 600px;
+    }
+
+    // .MuiDialogActions {
+    //   &-root {
+    //     .MuiButton {
+    //       &-text {
+    //         > .MuiButton-label {
+    //           color: $button-color;
+
+    //           &:hover {
+    //             color: $button-hover-color;
+    //           }
+    //         }
+
+    //         &:nth-of-type(1) {
+    //           > .MuiButton-label {
+    //             color: $button-cancel-color;
+
+    //             &:hover {
+    //               color: $button-cancel-hover-color;
+    //             }
+    //           }
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+  }
+  .MuiContainer-root {
+    padding: 0;
+  }
+
+  &.form {
+    .form-control {
+      min-width: 250px;
+    }
+
+    // &.multi_language {
+    // }
+
+    // &__columns {
+    //   &--2 {
+    //   }
+    // }
+  }
+}

@@ -1,0 +1,41 @@
+@import "./common/_customize";
+// @import "./common/_reset";
+@import "./common/_core";
+@import "./common/_forms";
+@import "./common/_common";
+// @import "./common/_normalize";
+// @import "./_global";
+
+/*
+ * Styles for DataTable
+ */
+ .pane-content {
+    .pagination {
+      margin: 16px 0;
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  }
+
+/*
+ * media screen
+ */
+// /* Large desktops and laptops: min-width: 1200px */
+// @include media-breakpoint-up(xl) {
+// }
+
+// /* Landscape tablets and medium desktops min-width: 992px; max-width:1199px */
+// @include media-breakpoint-between(lg, xl) {
+// }
+
+// /* Portrait tablets and small desktops min-width: 768px; max-width: 991px */
+// @include media-breakpoint-between(md, lg) {
+// }
+
+// /* Landscape phones and portrait tablets max-width: 767px */
+// @include media-breakpoint-down(sm) {
+// }
+
+// /* Portrait phones and smaller max-width: 576px */
+// @include media-breakpoint-down(xs) {
+// }

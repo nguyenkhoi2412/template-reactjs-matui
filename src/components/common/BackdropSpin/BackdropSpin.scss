@@ -1,0 +1,16 @@
+#root {
+  > .overlay {
+    z-index: 1031;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+  }
+  > .MuiCircularProgress-root {
+    color: #fff;
+    top: 48%;
+    left: 48%;
+    position: absolute;
+    z-index: 1032;
+  }
+}

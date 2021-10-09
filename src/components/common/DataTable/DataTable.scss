@@ -1,0 +1,24 @@
+.tblContainer {
+  > table {
+    min-width: 650px;
+
+    td {
+      .actions {
+        display: flex;
+        flex-direction: row-reverse;
+
+        svg {
+          cursor: pointer;
+          margin-left: 4px;
+        }
+      }
+    }
+
+    tfoot {
+      .paging-toolbar {
+        flex-shrink: 0;
+        margin-left: 20px;
+      }
+    }
+  }
+}

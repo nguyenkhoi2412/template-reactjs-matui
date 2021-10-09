@@ -1,0 +1,58 @@
+textarea {
+  resize: none;
+}
+
+/*
+ * Style Css for form control
+ */
+.form {
+  .form-control {
+    font-size: 14px;
+    // min-width: 210px;
+    width: 100%;
+    margin-bottom: 16px;
+
+    .MuiInputLabel-formControl {
+      font-size: 16px;
+    }
+
+    input {
+      padding: 12px 14px;
+      font-size: 13px;
+    }
+
+    .MuiFormHelperText-root {
+      font-style: italic;
+      font-size: small;
+    }
+
+    .actions {
+      margin-left: 24px;
+    }
+  }
+
+  .row {
+    &.actions {
+      display: flex;
+      flex-direction: row-reverse;
+      margin-bottom: 16px;
+
+      button {
+        margin-left: 16px;
+      }
+    }
+  }
+
+  &.col-2-fields {
+    .form-control {
+      .MuiFormHelperText-root {
+        position: absolute;
+        bottom: -20px;
+      }
+    }
+  }
+}
+
+/*
+ * Style Css for table
+ */

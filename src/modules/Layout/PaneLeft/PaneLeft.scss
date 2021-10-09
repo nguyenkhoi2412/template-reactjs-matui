@@ -1,0 +1,62 @@
+.splitpane {
+  .split {
+    &.left {
+      .MuiAccordion-root {
+        @include _shadow(0 0 0 0 transparent);
+        margin: 8px 0;
+
+        .header {
+          padding: 0;
+          min-height: 0;
+          text-transform: uppercase;
+
+          .MuiAccordionSummary-content {
+            margin: 0;
+            > p {
+              font-weight: 600;
+            }
+          }
+        }
+
+        .content {
+          padding: 0;
+
+          .MuiList-root {
+            width: 100%;
+
+            > li {
+              &.MuiListItem-root {
+                padding: 4px;
+
+                &:hover,
+                &.active {
+                  background-color: $primary-color;
+
+                  svg {
+                    color: #fff;
+                  }
+
+                  .MuiTypography-root {
+                    > a {
+                      color: #fff;
+                    }
+                  }
+                }
+
+                > .MuiListItemIcon-root {
+                  min-width: 30px;
+                }
+
+                .MuiTypography-root {
+                  > a {
+                    color: $font-color;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

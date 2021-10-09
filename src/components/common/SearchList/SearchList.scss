@@ -1,0 +1,21 @@
+.search-container {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid $border-color;
+  @include _rounded-corners(4px);
+
+  .search-icon {
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .MuiInputBase-root {
+    width: 100%;
+
+    > input {
+      font-size: $font-size;
+    }
+  }
+}

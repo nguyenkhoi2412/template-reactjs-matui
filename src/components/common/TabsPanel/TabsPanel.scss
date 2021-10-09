@@ -1,0 +1,16 @@
+.panel-tabs-container {
+  flex-grow: 1;
+
+  .MuiBox-root {
+    padding: 12px;
+  }
+
+  .MuiTabs-root {
+    .MuiTabs-scroller {
+      .MuiButtonBase-root {
+        min-width: 0;
+        padding: 0 16px;
+      }
+    }
+  }
+}

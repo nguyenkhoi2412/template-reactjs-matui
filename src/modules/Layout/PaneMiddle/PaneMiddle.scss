@@ -1,0 +1,18 @@
+.pane-middle-container {
+  margin-top: 8px;
+
+  .pane-header {
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+      text-transform: capitalize;
+    }
+
+    .btnActions {
+      > button {
+        margin-left: 8px;
+      }
+    }
+  }
+}

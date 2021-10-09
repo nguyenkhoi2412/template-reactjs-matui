@@ -1,0 +1,70 @@
+{
+    "task": {
+        "todo": "Nhận đồ",
+        "washing": "Đang giặt",
+        "drying": "Làm khô (phơi/sấy)",
+        "done": "Hoàn thành",
+        "delivery": "Bàn giao khách",
+        "delete": "Xóa đơn hàng"
+    },
+    "validate": {
+        "required": "* cần được nhập",
+        "isnumber": "* phải nhập số"
+    },
+    "signin": {
+        "username": "Tên đăng nhập",
+        "password": "Mật khẩu",
+        "signin": "Đăng nhập",
+        "signout": "Đăng xuất",
+        "rememberme": "Nhớ mật khẩu của tôi",
+        "forgotpassword": "Quên mật khẩu?",
+        "register": "Đăng ký tài khoản?",
+        "enterusername": "Vui lòng điền vào tên đăng nhập",
+        "enterpassword": "Mật khẩu của bạn"
+    },
+    "customer": {
+        "name": "Tên khách hàng",
+        "address": "Địa chỉ",
+        "phone": "Số điện thoại",
+        "weight": "Trọng lượng",
+        "softener": "Xả thơm",
+        "pay": "Thanh toán",
+        "indebtedness": "Khách hàng thiếu",
+        "promotion": "Khuyến mãi",
+        "splitcave": "Giặt riêng",
+        "currency-unit": "VNĐ",
+        "accumulate-points": "Tích điểm",
+        "note": "Ghi chú",
+        "another-choose": "Lựa chọn khác",
+        "ph-name-phone": "Tên khách hàng/số điện thoại",
+        "neworder": "Thêm đơn hàng",
+        "update-info": "Cập nhật thông tin",
+        "customer-info": "Thông tin khách hàng"
+    },
+    "common": {
+        "english": "EN",
+        "vietnamese": "VI",
+        "cancel": "Thoát",
+        "save": "Lưu",
+        "delete": "Xóa",
+        "confirm": "Xác nhận",
+        "saving": "Đang lưu...",
+        "addnew": "Thêm mới",
+        "loading": "Đang tải"
+    },
+    "site": {
+        "fieldenter": "Trường nhận",
+        "currentcy-unit": "VNĐ",
+        "order": "Đơn hàng",
+        "update-customer": "Thay đổi thông tin",
+        "confirm-infos": "Xác nhận thông tin",
+        "delete-infos": "Bạn có chắc muốn xóa toàn bộ thông tin này?"
+    },
+    "order": {
+        "neworder": "Tạo đơn hàng",
+        "product": "Sản phẩm",
+        "weight": "Trọng lượng",
+        "create-order": "Tạo đơn hàng",
+        "update-order": "Cập nhật thay đổi"
+    }
+}

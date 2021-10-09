@@ -1,0 +1,117 @@
+.dropdown-btn-select {
+  height: 65px;
+  width: 100%;
+  display: inline-flex;
+
+  > button {
+    height: 100%;
+    width: 100%;
+    align-items: baseline;
+    text-align: left;
+    color: #fff;
+    @include _shadow(0 0 0 0 transparent);
+
+    .MuiButton-label {
+      flex-direction: column;
+      height: 100%;
+
+      small {
+        font-weight: 400;
+      }
+    }
+  }
+
+  > .fc_Select {
+    height: 100%;
+    background-color: $primary-color;
+    margin-left: -5px;
+    width: 30px;
+    @include _rounded-corners(0 4px 4px 0);
+
+    &:hover {
+      background: $primary-hover-color;
+    }
+
+    .MuiInput-formControl {
+      height: 100%;
+
+      &:before, &:after {
+        border: none;
+      }
+
+      .MuiSelect-select {
+        color: transparent;
+        background: transparent;
+      }
+
+      .MuiSelect-icon {
+        color: #fff;
+      }
+    }
+  }
+
+  /** style buttons by task */
+  &[data-todo="todo"] {
+    button {
+      background-color: $danger-color;
+      &:hover {
+        background-color: $danger-hover-color;
+      }
+    }
+
+    .fc_Select {
+      background-color: $danger-color;
+      &:hover {
+        background-color: $danger-hover-color;
+      }
+    }
+  }
+
+  &[data-todo="washing"] {
+    button {
+      background-color: $info-color;
+      &:hover {
+        background-color: $info-hover-color;
+      }
+    }
+
+    .fc_Select {
+      background-color: $info-color;
+      &:hover {
+        background-color: $info-hover-color;
+      }
+    }
+  }
+
+  &[data-todo="drying"] {
+    button {
+      background-color: $warning-color;
+      &:hover {
+        background-color: $warning-hover-color;
+      }
+    }
+
+    .fc_Select {
+      background-color: $warning-color;
+      &:hover {
+        background-color: $warning-hover-color;
+      }
+    }
+  }
+
+  &[data-todo="success"] {
+    button {
+      background-color: $success-color;
+      &:hover {
+        background-color: $success-hover-color;
+      }
+    }
+
+    .fc_Select {
+      background-color: $success-color;
+      &:hover {
+        background-color: $success-hover-color;
+      }
+    }
+  }
+}

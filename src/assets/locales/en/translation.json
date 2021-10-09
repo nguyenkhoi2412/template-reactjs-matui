@@ -1,0 +1,56 @@
+{
+  "validate": {
+    "required": "* is required",
+    "isnumber": "* be number"
+  },
+  "signin": {
+    "username": "Username",
+    "password": "Password",
+    "signin": "Sign in",
+    "signout": "Sign out",
+    "rememberme": "Remember me",
+    "forgotpassword": "Forgot password?",
+    "register": "Register now?",
+    "enterusername": "Enter your usename",
+    "enterpassword": "Your password"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Delete",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "save": "Save",
+    "saving": "Saving...",
+    "datasaved": "Data saved",
+    "datadeleted": "Data deleted",
+    "loading": "Loading",
+    "edit": "Edit",
+    "addchild": "Add child",
+    "areyousurethisdata": "Are you sure delete this data?"
+  },
+  "button": {
+    "newtype": "New type",
+    "newcategory": "New category",
+    "newsurvey": "New survey"
+  },
+  "site": {
+    "fieldenter": "Field enter",
+    "currentcy-unit": "USD",
+    "recent-types": "Recent types",
+    "types": "Types",
+    "categories": "Categories",
+    "surveys": "Surveys",
+    "questionnaire": "Questionnaire",
+    "title": "Title",
+    "description": "Description"
+  },
+  "type": {
+    "addnew": "Add new",
+    "typename": "Type name"
+  },
+  "article": {
+    "sub_title": "Sub title",
+    "description": "Description"
+  }
+}

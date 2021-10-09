@@ -1,0 +1,16 @@
+.MuiBreadcrumbs-ol {
+  .MuiBreadcrumbs-li {
+    &:nth-of-type(1) {
+      margin-top: 6px;
+    }
+
+    > a,
+    > p {
+      text-transform: capitalize;
+    }
+
+    > a {
+      color: rgba(0, 0, 0, 0.54);
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.panel-survey {
+  &.drawer {
+    max-width: 320px;
+
+    .item-header {
+      padding: 4px 12px 0;
+    }
+
+    .item-content {
+      padding: 4px 12px 0;
+      .form {
+        .form-control {
+          textarea {
+            min-height: 150px;
+          }
+        }
+
+        .row {
+          &.actions {
+            button {
+              margin-right: 12px;
+              margin-left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

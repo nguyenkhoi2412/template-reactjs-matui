@@ -1,0 +1,51 @@
+/** style role="progressbar" */
+// [role="progressbar"] {
+//   color: $main-color;
+// }
+
+/** style menuitem */
+// .MuiListItem-root {
+//   &.Mui-selected {
+//     background-color: #e9ecef;
+
+//     &:hover {
+//       background-color: #e9ecef;
+//     }
+//   }
+// }
+
+// .MuiMenuItem-root {
+//   padding-left: 30px;
+
+//   > .MuiTouchRipple-root {
+//     padding: 6px 25px;
+
+//     &:before {
+//       content: "✔";
+//       position: absolute;
+//       display: none;
+//       left: 12px;
+//       @include _transparent(0.1, 10%);
+//     }
+//   }
+
+//   &:hover {
+//     > .MuiTouchRipple-root {
+//       &:before {
+//         display: block;
+//         @include _fadeIn();
+//       }
+//     }
+//   }
+
+//   &.Mui-selected {
+//     > .MuiTouchRipple-root {
+//       &:before {
+//         display: block;
+//         font-weight: 400;
+//         @include _fadeIn();
+//         @include _transparent(1, 100%);
+//       }
+//     }
+//   }
+// }
